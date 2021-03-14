@@ -1,7 +1,7 @@
 public class main {
     public static void main(String[] args) {
         String[] cartoon = {"Avengers", "Black Panther", "Soul", "Coco"};
-        int[] nums = {24, 25, 16, 17, 8, 9, 0};
+        int[] nums = {24, 25, 16, 17, 8, 9, 1};
         PrintArr(cartoon);
         System.out.println(addArr(nums));
 
