@@ -12,19 +12,10 @@ public class Library {
         this.user = user;
     }
 
-    @Override
-    public String toString() {
-        return "Your Local Library is " +
-                name + " " +
-                "it has the following books " + books +
-                " Current Employees are" + employee +
-                "Current Registered Readers " + user;
-    }
-
     public String getName(){
         return name;
     }
-    public void setName(){
+    public void setName(String name){
         this.name = name;
     }
 
