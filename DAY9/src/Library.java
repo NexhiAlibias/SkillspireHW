@@ -7,6 +7,7 @@ public class Library {
     private ArrayList<User> user;
 
     public Library(String name, ArrayList<Book> books, ArrayList<Employee> employee, ArrayList<User> user) {
+        this.name = name;
         this.books = books;
         this.employee = employee;
         this.user = user;

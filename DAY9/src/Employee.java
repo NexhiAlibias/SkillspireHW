@@ -38,7 +38,7 @@ public class Employee extends User {
     @Override
     public void overduePayments(double daysOverdue){
         daysOverdue *= .10;
-        daysOverdue += balanceUnpaid;
+        daysOverdue += getBalanceUnpaid();
 
 
 

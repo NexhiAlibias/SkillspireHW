@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 
 public class User {
-    String firstName;
-    String lastName;
-    String email;
-    int userId;
-    ArrayList<Book> booksOut;
-    double balanceUnpaid;
+  private String firstName;
+  private String lastName;
+  private  String email;
+  private  int userId;
+  private  ArrayList<Book> booksOut;
+  private  double balanceUnpaid;
 
     public User(String firstName, String lastName, String email, int userId, ArrayList<Book> booksOut, double balanceUnpaid) {
         this.firstName = firstName;
