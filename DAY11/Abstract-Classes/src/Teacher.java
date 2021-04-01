@@ -18,7 +18,7 @@ public class Teacher extends User {
     @Override
     public void absentDays(int daysAbsent) {
         ptoDays -= daysAbsent;
-       setAbsences(daysAbsent);
+       setAbsences(getAbsences() + daysAbsent);
 
         System.out.println(getFirstName() + " " + getLastName() + " has " + ptoDays
                 + " left and has been absent for " + getAbsences() + " day.");
